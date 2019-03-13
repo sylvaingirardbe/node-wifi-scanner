@@ -1,8 +1,10 @@
 #node-wifi-scanner
 
-[![Build Status](https://travis-ci.org/ancasicolica/node-wifi-scanner.svg?branch=master)](https://travis-ci.org/ancasicolica/node-wifi-scanner)
-[![npm](https://img.shields.io/npm/v/node-wifi-scanner.svg)]()
-[![npm](https://img.shields.io/npm/dt/node-wifi-scanner.svg)](https://www.npmjs.com/package/node-wifi-scanner)
+[![Build Status](https://travis-ci.org/sylvaingirardbe/node-wifi-scanner.svg?branch=master)](https://travis-ci.org/sylvaingirardbe/node-wifi-scanner)
+[![npm](https://img.shields.io/npm/v/@curaelabs/node-wifi-scanner.svg)](https://www.npmjs.com/package/@curaelabs/node-wifi-scanner)
+[![npm](https://img.shields.io/npm/dt/@curaelabs/node-wifi-scanner.svg)](https://www.npmjs.com/package/@curaelabs/node-wifi-scanner)
+
+This package is based on Christian Kuster's `node-wifi-scanner` but with updated dependencies to remove vulnerabilities and it has his latest version published to `npm` which adds better support for Raspbian.
 
 This module for node.js scans available wifi networks. The main purpose was to enhance my node.js based
 [ZigBee Site Survey Tool](http://ancasicolica.github.io/ZigBeeSiteSurvey/) with WiFi coexistence charts. This tool
@@ -17,17 +19,15 @@ system language. The adaptions needed would have been too comprehensive for a pu
 
 It was tested with the following operating systems:
 * Mac OS-X
-* Windows 10
-* Ubuntu 14.04
-* Raspbian "Jessie"
+* Raspbian "Stretch"
 
 ## Installation
 
-    npm i node-wifi-scanner
+    npm i @curaelabs/node-wifi-scanner
 
 ## Usage
 
-    const scanner = require('node-wifi-scanner');
+    const scanner = require('@curaelabs/node-wifi-scanner');
 
     scanner.scan((err, networks) => {
       if (err) {
@@ -60,11 +60,11 @@ Unfortunately, Mac OS-X and Windows use the system language for the output which
 generic way of parsing the data. If you experience any troubles, please create a GitHub issue and supply
 the output of the tool.
 
-## Licence
+## License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Christian Kuster
+Copyright (c) 2019 Sylvain Girard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
