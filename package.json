@@ -1,7 +1,7 @@
 {
-  "name": "node-wifi-scanner",
-  "version": "1.1.0",
-  "description": "node.js module for WiFi network detection",
+  "name": "@curaelabs/node-wifi-scanner",
+  "version": "0.0.1",
+  "description": "node.js module for WiFi network detection, based of of Christian Kuster's `node-wifi-scanner`. This has `npm` vulnerabilities removed and the latest version pubished.",
   "main": "index.js",
   "keywords": [
     "WiFi",
@@ -13,19 +13,19 @@
     "nmcli"
   ],
   "author": {
-    "name": "Christian Kuster, CH-8342 Wernetshausen",
-    "email": "info@kusti.ch",
-    "url": "http://www.kusti.ch/"
+    "name": "Sylvain Girard",
+    "email": "sylvain@curaelabs.eu",
+    "url": "https://www.curaelabs.com"
   },
-  "homepage": "https://github.com/ancasicolica/node-wifi-scanner",
+  "homepage": "https://github.com/sylvaingirardbe/node-wifi-scanner",
   "bugs": {
-    "url": "https://github.com/ancasicolica/node-wifi-scanner/issues",
-    "email": "info@ancasicolica.ch"
+    "url": "https://github.com/sylvaingirardbe/node-wifi-scanner/issues",
+    "email": "sylvain@curaelabs.eu"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ancasicolica/node-wifi-scanner.git"
+    "url": "https://github.com/sylvaingirardbe/node-wifi-scanner.git"
   },
   "engines": {
     "node": ">= 4.0.0",
